@@ -1,0 +1,39 @@
+@media screen and (min-width: 700px) {
+    .landing {
+        grid-template-columns: 1fr 1fr;
+    }
+    .landing .image {
+        order: 1;
+    }
+
+    .contact-me {
+        font-size: 2rem;
+    }
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .left {
+        text-align: left;
+    }
+    footer .right {
+        text-align: right;
+    }
+    footer .right .social i{
+        padding: 0 0 0 1rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 1.2vw;
+    }
+    main {
+        padding: 0 8rem;
+    }
+    .landing .image {
+        order: 1;
+    }
+
+    .contact-me {
+        font-size: 2.6vw;
+    }
+}
